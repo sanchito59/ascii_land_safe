@@ -2,7 +2,7 @@
 
 ## By **Eliza Sohn, George Acosta, Jay Winebrenner, and Chris Sanchez**
 
-Ascii Land is a... 
+Ascii Land is a...
 
 ![screenshot of landing page for website](app/assets/readme/landing-page.png)
 
@@ -34,8 +34,8 @@ brew install imagemagick@6
 ##### Windows OS Installation
 
 To install ImageMagick on Windows OS, use the [official link](https://www.imagemagick.org/script/download.php#windows) on ImageMagick's website. Navigate to `ImageMagick 6.9.6-0 Q16 x64 2016-10-02`.  
-  
-**The most crucial steps during installation of ImageMagick on Windows is to check the following two options:** 
+
+**The most crucial steps during installation of ImageMagick on Windows is to check the following two options:**
 1. **Add application directory to your system path** – otherwise Windows won’t recognize any of the commands and tell you something like ‘convert’ is not recognized as an internal or external command, operable program or batch file.
 
 2. **Install legacy utilities** – the new version of ImageMagick got rid of the old convert and mogrify commands in favor of a single command. Checking this box will allow you to still use the old convert and mogrify commands.
@@ -60,7 +60,8 @@ To install ImageMagick on Windows OS, use the [official link](https://www.imagem
  - Active Storage
  - Database Querying
  - ffmpeg
- - ImageMagick
+ - streamio-ffmpeg
+ - ImageMagick6
 
 - - -
 
@@ -97,4 +98,3 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 Copyright (c) 2020 **Eliza Sohn, George Acosta, Jay Winebrenner, or Chris Sanchez**
-
